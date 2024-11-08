@@ -1,0 +1,8 @@
+XTerm*loginShell:true
+XTerm*background:#002b36
+XTerm*foreground:#657b83
+
+xterm*faceName:monospace
+xterm*faceSize:14
+
+

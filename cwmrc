@@ -1,0 +1,15 @@
+command lock		slock
+command term		xterm
+command chromium        chromium 
+command suspend         "systemctl suspend"
+
+autogroup 1             "xterm,XTerm" 
+autogroup 2             "chromium,Chromium"
+unbind-key              M-Up
+unbind-key              M-Right
+unbind-key              M-Down
+unbind-key              M-Left
+
+bind-key 4-l            lock
+
+bind-mouse CM-1         window-resize
