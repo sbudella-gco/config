@@ -3,7 +3,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set nocompatible
-set ignorecase
+"   set ignorecase
 
 set backupdir=~/tmp/vi/
 set directory=~/tmp/vi/
