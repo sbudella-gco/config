@@ -1,15 +1,14 @@
 command lock		slock
 command term		xterm
-command chromium        chromium 
-command suspend         "systemctl suspend"
+command chrome		chrome
 
-autogroup 1             "xterm,XTerm" 
-autogroup 2             "chromium,Chromium"
+autogroup 1             "xterm", "XTerm"
+autogroup 2             "google-chrome", "Google-chrome"
+
 unbind-key              M-Up
 unbind-key              M-Right
 unbind-key              M-Down
 unbind-key              M-Left
 
-bind-key 4-l            lock
-
+bind-key 4-l		lock
 bind-mouse CM-1         window-resize
